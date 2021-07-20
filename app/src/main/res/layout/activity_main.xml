@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RadioGroup
+        android:id="@+id/rg_Colores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_rojo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rojo" />
+
+        <RadioButton
+            android:id="@+id/rb_verde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verde" />
+
+        <RadioButton
+            android:id="@+id/rb_azul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Azul" />
+
+        <RadioButton
+            android:id="@+id/rb_amarillo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amarillo" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_aceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACEPTAR" />
+
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
